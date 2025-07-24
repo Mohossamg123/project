@@ -1,0 +1,164 @@
+.big-nav{
+  height: 115px;
+  padding: 33px;
+  font-size: 20px;
+  
+}
+
+
+.ellogo{
+  width: 150px;
+  height: 50px;
+}
+
+
+
+.nav-link {
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ff4c3b;
+}
+
+.navbar-nav .nav-link.dropdown-toggle::after {
+  display: none;
+}
+
+
+
+/* footer */
+
+
+
+.footer {
+  width: 100%;
+  background-color: #181a1d;
+  color: #dcdcdc;
+  padding: 60px 20px 0;
+}
+
+.footer a {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-logo span {
+  color: red;
+}
+
+.social-icons i {
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.footer-box {
+  background-color: #1f2124;
+  border-radius: 6px;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+
+.footer-box a {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding: 25px 0;
+  font-size: 14px;
+}
+
+.footer-bottom .payment-icons img {
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.footer-bottom .copyright {
+  color: #aaa;
+}
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 12px;
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+  z-index: 999;
+}
+
+
+
+/* 3 */
+
+   body {
+      font-family: Arial, sans-serif;
+    }
+
+    .contact-info i {
+      font-size: 24px;
+    }
+
+    .contact-info h6 {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .contact-info p,
+    .contact-info a {
+      margin: 0;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .social-icons a {
+      font-size: 20px;
+      color: #000;
+      margin: 0 5px;
+    }
+
+    .form-control {
+      background-color: #f1f5f8;
+      border: none;
+      padding: 12px;
+    }
+
+    .btn-black {
+      background-color: #000;
+      color: #fff;
+      border-radius: 5px;
+      padding: 12px;
+      width: 100%;
+    }
+
+    .btn-black:hover {
+      background-color: #333;
+    }
+
+
+
+     .map{
+        width: 100%;
+     }
